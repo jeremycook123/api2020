@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api2020", "api2020\api2020.csproj", "{13FD7BD2-A433-465B-87A6-A1DE80B5296D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13FD7BD2-A433-465B-87A6-A1DE80B5296D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13FD7BD2-A433-465B-87A6-A1DE80B5296D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13FD7BD2-A433-465B-87A6-A1DE80B5296D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13FD7BD2-A433-465B-87A6-A1DE80B5296D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
