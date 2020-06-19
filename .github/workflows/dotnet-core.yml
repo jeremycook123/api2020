@@ -28,3 +28,11 @@ jobs:
       with:
         name: api2020.dll
         path: api2020/bin/Release/netcoreapp3.1/api2020.dll
+    - name: Make Release
+      uses: softprops/action-gh-release@v1
+      if: startsWith(github.ref, 'refs/tags/')
+      with:
+        files: |
+          api2020/bin/Release/netcoreapp3.1/api2020.dll
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
